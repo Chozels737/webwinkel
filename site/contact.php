@@ -5,8 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style3.css" />
 </head>
 <body>
+        <header>
+        <img class="logo" src="/images/logo.png" />
+        <nav>
+          <ul class="nav__links">
+            <li><a href="index.php">contact</a></li>
+            <li><a href="index.php">contact</a></li>
+            <li><a href="index.php">contact</a></li>
+          </ul>
+        </nav>
+        <a class="cta" href="#"><button>Contact</button></a>
+      </header>
 <main> 
     <div class="container"> 
         <form action="verwerk.php" method="get"> 
@@ -64,7 +77,7 @@ name="txtTussenvoegsels" placeholder="Tussenvoegsels">
             </ul> 
         </form> 
     </div> 
-</main>       
+</main> 
 </body>
 </html>
 

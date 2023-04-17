@@ -12,9 +12,7 @@
     <title>Navbar</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css"/>
   </head>
 <body>
     <header>
@@ -214,19 +212,16 @@
           <div class="col">
             <a class="social-inner" href="#"
               ><span class="icon mdi mdi-facebook"></span
-              ><span>Facebook</span></a
-            >
+              ><span>Facebook</span></a>
           </div>
           <div class="col">
             <a class="social-inner" href="#"
               ><span class="icon mdi mdi-instagram"></span
-              ><span>Instagram</span></a
-            >
+              ><span>Instagram</span></a>
           </div>
           <div class="col">
             <a class="social-inner" href="#"
-              ><span class="icon mdi mdi-twitter"></span><span>Twitter</span></a
-            >
+              ><span class="icon mdi mdi-twitter"></span><span>Twitter</span></a>
           </div>
           <div class="col">
             <a class="social-inner" href="#"

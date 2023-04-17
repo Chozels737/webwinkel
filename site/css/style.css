@@ -72,9 +72,10 @@ main{
 
 .Productlijst{
   display: flex;
-  margin-left: 5cm;
+  margin-left: 4cm;
   margin-top: 1cm;
-  background-color:white;
+  background-color: white;
+  justify-content: center;
 }
 
 .Prijs{
@@ -211,6 +212,7 @@ ul, ol {
   display: flex;
   padding-left: 9cm;
   padding-top: 2cm;
+  justify-content: center;
 
 }
 
