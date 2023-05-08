@@ -1,71 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<link
+      href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      id="bootstrap-css" />
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <meta charset="utf-8" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
     <header>
-        <img class="logo" src="/images/logo.png" />
+        <img class="logo" src="images/logo.png" />
         <nav>
          <?php include 'nav.php'?>
         </nav>
         <a class="cta" href="#"><button>Contact</button></a>
       </header>
     <main> 
-    <div class="container"> 
+    <div class="container1"> 
         <form action="verwerk.php" method="get"> 
             <ul> 
-                <li> 
-                    <label for="txtVoornaam">Voornaam</label><br> 
+                <ul> 
+                    <h1><label for="txtVoornaam">Voornaam</label></h1><br> 
                     <input type="text" id="txtVoornaam" name="txtVoornaam" 
                         placeholder="Voornaam" autofocus> 
-                </li> 
-                <li> 
-                    <label 
+                </ul> 
+                <ul> 
+                     <h1><label 
                         for="txtTussenvoegsels">Tussenvoegsels</label><br> 
                     <input type="text" id="txtTussenvoegsels" 
                         name="txtTussenvoegsels" placeholder="Tussenvoegsels"> 
-                </li> 
-                <li> 
-                    <label for="txtAchternaam">Achternaam</label><br> 
+                </ul> 
+                <ul> 
+                     <h1><label for="txtAchternaam">Achternaam</label><br> 
                     <input type="text" id="txtAchternaam" 
                         name="txtAchternaam" placeholder="Achternaam"> 
-                </li> 
+                </ul> 
             </ul> 
             <ul> 
-                <li> 
-                    <label for="txtStraat">Straat</label><br> 
+                <ul> 
+                     <h1><label for="txtStraat">Straat</label><br> 
                     <input type="text" id="txtStraat" name="txtStraat" 
                         placeholder="Straat" autofocus> 
-                </li> 
-                <li> 
-                    <label for="txtHuisnummer">Huisnummer</label><br> 
+                </ul> 
+                <ul> 
+                     <h1><label for="txtHuisnummer">Huisnummer</label><br> 
                     <input type="text" id="txtHuisnummer" 
                          name="txtHuisnummer" placeholder="Huisnummer"> 
-                </li> 
+                </ul> 
             </ul> 
             <ul> 
-                <li> 
-                    <label for="txtPostcode">Postcode</label><br> 
+                <ul> 
+                     <h1><label for="txtPostcode">Postcode</label><br> 
                     <input type="text" id="txtPostcode" name="txtPostcode" 
                     placeholder="Postcode" autofocus> 
-                </li> 
-                <li> 
-                    <label for="txtPlaats">Plaats</label><br> 
+                </ul> 
+                <ul> 
+                     <h1><label for="txtPlaats">Plaats</label><br> 
                     <input type="text" id="txtPlaats" name="txtPlaats" 
-                    placeholder="Plaats"> 
-                </li> 
-                <li> 
-                    <label for="txtLand">Land</label><br> 
-                    <input type="text" id="txtLand" name="txtLand" 
-                    laceholder="Land"> 
-                </li> 
+                    placeholder="Plaats">
+                </ul> 
             </ul> 
-            <ul> 
+            <ul><br>    
                 <li> 
                     <button type="submit">Verstuur</button> 
                 </li> 
@@ -73,10 +75,11 @@
         </form> 
     </div> 
 </main> 
-<footer>
-    <?php include 'footer.php'?>
-</footer>
 </body>
+<br><br><br><br>
+<footer>
+<?php include 'footer.php'?>
+</footer>
 </html>
 
 

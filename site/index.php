@@ -65,8 +65,8 @@
       </div>
     </div>
     <br><br><br><br>
-<footer>
-<?php include 'footer.php'?>
-</footer>
+    <footer>
+      <?php include 'footer.php'?>
+    </footer>
   </body>
 </html>

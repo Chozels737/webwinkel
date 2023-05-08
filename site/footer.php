@@ -51,28 +51,28 @@
         </div>
         <div class="row no-gutters social-container">
           <div class="col">
-            <a class="social-inner" href="#"
+            <a class="social-inner" href="https://www.facebook.com/"
               ><span class="icon mdi mdi-facebook"></span
               ><span>Facebook</span></a
-            >
+             >
           </div>
           <div class="col">
-            <a class="social-inner" href="#"
+            <a class="social-inner" href="https://www.instagram.com/"
               ><span class="icon mdi mdi-instagram"></span
               ><span>Instagram</span></a
             >
           </div>
           <div class="col">
-            <a class="social-inner" href="#"
+            <a class="social-inner" href="https://www.twitter.com/"
               ><span class="icon mdi mdi-twitter"></span><span>Twitter</span></a
             >
           </div>
           <div class="col">
-            <a class="social-inner" href="#"
+            <a class="social-inner" href="https://www.youtube.com/"
               ><span class="icon mdi mdi-youtube-play"></span
               ><span>Youtube</span></a
             >
           </div>
         </div>
-      </footer>
-    </footer>
+       </footer>
+</footer>
