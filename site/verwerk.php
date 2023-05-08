@@ -20,7 +20,7 @@
         <nav>
          <?php include 'nav.php'?>
         </nav>
-        <a class="cta" href="#"><button>Contact</button></a>
+        <a class="cta" href="contact.php"><button>Contact</button></a>
       </header>
 <footer>
     <?php include 'footer.php'?>
