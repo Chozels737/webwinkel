@@ -5,52 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="style3.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style3.css" />
+    <link rel="stylesheet" href="css/style2.css" />
 </head>
 <body>
-        <header>
+    <header>
         <img class="logo" src="/images/logo.png" />
         <nav>
-          <ul class="nav__links">
-            <li><a href="index.php">contact</a></li>
-            <li><a href="index.php">contact</a></li>
-            <li><a href="index.php">contact</a></li>
-          </ul>
+         <?php include 'nav.php'?>
         </nav>
         <a class="cta" href="#"><button>Contact</button></a>
       </header>
-<main> 
+    <main> 
     <div class="container"> 
         <form action="verwerk.php" method="get"> 
             <ul> 
                 <li> 
                     <label for="txtVoornaam">Voornaam</label><br> 
                     <input type="text" id="txtVoornaam" name="txtVoornaam" 
-placeholder="Voornaam" autofocus> 
+                        placeholder="Voornaam" autofocus> 
                 </li> 
                 <li> 
                     <label 
-for="txtTussenvoegsels">Tussenvoegsels</label><br> 
+                        for="txtTussenvoegsels">Tussenvoegsels</label><br> 
                     <input type="text" id="txtTussenvoegsels" 
-name="txtTussenvoegsels" placeholder="Tussenvoegsels"> 
+                        name="txtTussenvoegsels" placeholder="Tussenvoegsels"> 
                 </li> 
                 <li> 
                     <label for="txtAchternaam">Achternaam</label><br> 
                     <input type="text" id="txtAchternaam" 
-                    name="txtAchternaam" placeholder="Achternaam"> 
+                        name="txtAchternaam" placeholder="Achternaam"> 
                 </li> 
             </ul> 
             <ul> 
                 <li> 
                     <label for="txtStraat">Straat</label><br> 
                     <input type="text" id="txtStraat" name="txtStraat" 
-                    placeholder="Straat" autofocus> 
+                        placeholder="Straat" autofocus> 
                 </li> 
                 <li> 
                     <label for="txtHuisnummer">Huisnummer</label><br> 
                     <input type="text" id="txtHuisnummer" 
-                     name="txtHuisnummer" placeholder="Huisnummer"> 
+                         name="txtHuisnummer" placeholder="Huisnummer"> 
                 </li> 
             </ul> 
             <ul> 
@@ -78,6 +75,9 @@ name="txtTussenvoegsels" placeholder="Tussenvoegsels">
         </form> 
     </div> 
 </main> 
+<footer>
+    <?php include 'footer.php'?>
+</footer>
 </body>
 </html>
 

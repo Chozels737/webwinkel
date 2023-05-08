@@ -12,8 +12,8 @@
     <title>Navbar</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="style2.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style2.css" />
   </head>
   <body>
     <header>
@@ -21,7 +21,7 @@
       <nav>
        <?php include 'nav.php'?>
       </nav>
-      <a class="cta" href="#"><button>Contact</button></a>
+      <a class="cta" href="contact.php"><button>Contact</button></a>
     </header>
     <main>
       <img class="Frontpage" src="/images/Main.png" />

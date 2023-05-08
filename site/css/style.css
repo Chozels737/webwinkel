@@ -56,21 +56,21 @@ button {
 button:hover {
   background-color: rgba(0, 136, 169, 0, 8);
 }
-main{
-    background-color: rgb(255, 255, 255);
-    height: auto;
+main {
+  background-color: rgb(255, 255, 255);
+  height: auto;
 }
-.Frontpage{
-    display: flex;
-    align-items: center;
-    padding: 20px;
-    width: 55%;
-    height: 80;
-    margin-left: auto;
-    margin-right: auto;
+.Frontpage {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  width: 55%;
+  height: 80;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.Productlijst{
+.Productlijst {
   display: flex;
   margin-left: 4cm;
   margin-top: 1cm;
@@ -78,20 +78,20 @@ main{
   justify-content: center;
 }
 
-.Prijs{
+.Prijs {
   font-family: "Montserrat", sans-serif;
-background-color: white;
+  background-color: white;
   margin-left: 4cm;
   width: 29%;
 }
 
-.Product{
+.Product {
   font-family: "Montserrat", sans-serif;
   background-color: rgb(138, 138, 138);
   margin-right: 6cm;
-}   
+}
 
-.section footer-classic context-dark bg-image{
+.section footer-classic context-dark bg-image {
   margin-top: 7cm;
 }
 
@@ -100,68 +100,22 @@ background-color: white;
   display: flex;
   padding-left: 9cm;
   padding-top: 2cm;
-
 }
 
-.spec{
+.spec {
   padding-left: 5cm;
-background-color: rgb(212, 212, 212);
+  background-color: rgb(212, 212, 212);
 }
 
-.context-dark, .bg-gray-dark, .bg-primary {
-color: rgba(255, 255, 255, 0.8);
-}
-
-.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
-    color: #ffffff;
-}
-.nav-list li {
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-.nav-list li a:hover:before {
-    margin-left: 0;
-    opacity: 1;
-    visibility: visible;
-}
-
-ul, ol {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.social-inner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    padding: 23px;
-    font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.5);
-}
-.social-container .col {
-    border: 1px solid rgb(85, 83, 83);
-}
-.nav-list li a:before {
-    content: "\f14f";
-    font: 400 21px/1 "Material Design Icons";
-    color: #040508;
-    display: inline-block;
-    vertical-align: baseline;
-    margin-left: -28px;
-    margin-right: 7px;
-    opacity: 0;
-    visibility: hidden;
-    transition: .22s ease;
-}
-.context-dark, .bg-gray-dark, .bg-primary {
+.context-dark,
+.bg-gray-dark,
+.bg-primary {
   color: rgba(255, 255, 255, 0.8);
 }
 
-.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+.footer-classic a,
+.footer-classic a:focus,
+.footer-classic a:active {
   color: #ffffff;
 }
 .nav-list li {
@@ -175,8 +129,8 @@ ul, ol {
   visibility: visible;
 }
 
-
-ul, ol {
+ul,
+ol {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -188,7 +142,8 @@ ul, ol {
   align-items: center;
   width: 100%;
   padding: 23px;
-  font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.5);
 }
@@ -205,20 +160,132 @@ ul, ol {
   margin-right: 7px;
   opacity: 0;
   visibility: hidden;
-  transition: .22s ease;
+  transition: 0.22s ease;
 }
+.context-dark,
+.bg-gray-dark,
+.bg-primary {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-classic a,
+.footer-classic a:focus,
+.footer-classic a:active {
+  color: #ffffff;
+}
+.nav-list li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.nav-list li a:hover:before {
+  margin-left: 0;
+  opacity: 1;
+  visibility: visible;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 23px;
+  font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+}
+.social-container .col {
+  border: 1px solid rgb(85, 83, 83);
+}
+.nav-list li a:before {
+  content: "\f14f";
+  font: 400 21px/1 "Material Design Icons";
+  color: #040508;
+  display: inline-block;
+  vertical-align: baseline;
+  margin-left: -28px;
+  margin-right: 7px;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.22s ease;
+}
+/*achtergrond product kleur geven
+*/
 .Webshop {
-  background-color: blue;
+  background-color: rgb(255, 255, 255);
   display: flex;
   padding-left: 9cm;
   padding-top: 2cm;
   justify-content: center;
-
+}
+/*
+plek naast spec en foto kleur
+*/
+.spec {
+  padding-left: 5cm;
+  background-color: rgb(255, 255, 255);
 }
 
+.context-dark,
+.bg-gray-dark,
+.bg-primary {
+  color: rgba(255, 255, 255, 0.8);
+}
 
-.spec{
-  padding-left: 5cm;
-background-color: red;
+.footer-classic a,
+.footer-classic a:focus,
+.footer-classic a:active {
+  color: #ffffff;
+}
+.nav-list li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
 
-  }
+.nav-list li a:hover:before {
+  margin-left: 0;
+  opacity: 1;
+  visibility: visible;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 23px;
+  font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+}
+.social-container .col {
+  border: 1px solid rgb(85, 83, 83);
+}
+.nav-list li a:before {
+  content: "\f14f";
+  font: 400 21px/1 "Material Design Icons";
+  color: #040508;
+  display: inline-block;
+  vertical-align: baseline;
+  margin-left: -28px;
+  margin-right: 7px;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.22s ease;
+}
