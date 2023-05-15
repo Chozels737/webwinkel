@@ -20,7 +20,7 @@
         <nav>
        <?php include 'nav.php'?>
       </nav>
-      <a class="cta" href="contact.php"><button>Contact</button></a>
+      <a class="cta" href="contact.php"><button>registreren</button></a>
       </header>
     <div class="Webshop">
      <a href="product-detail.php"><img src="/images/web4090.png"></a>

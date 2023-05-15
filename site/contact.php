@@ -20,7 +20,7 @@
         <nav>
          <?php include 'nav.php'?>
         </nav>
-        <a class="cta" href="contact.php"><button>Contact</button></a>
+        <a class="cta" href="contact.php"><button>registreren</button></a>
       </header>
     <main> 
     <div class="container1"> 
@@ -66,7 +66,7 @@
                     <input type="text" id="txtPlaats" name="txtPlaats" 
                     placeholder="Plaats">
                 </ul> 
-            </ul> 
+            </ul>
             <ul><br>    
                 <li> 
                     <button type="submit">Verstuur</button> 
