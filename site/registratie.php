@@ -20,7 +20,7 @@
         <nav>
          <?php include 'nav.php'?>
         </nav>
-        <a class="cta" href="contact.php"><button>registreren</button></a>
+        <a class="cta" href="registratie.php"><button>registreren</button></a>
       </header>
     <main> 
     <div class="container1"> 
