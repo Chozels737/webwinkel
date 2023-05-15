@@ -27,9 +27,9 @@
         <form action="verwerk.php" method="get"> 
             <ul> 
                 <ul> 
-                    <h1><label for="txtVoornaam">Voornaam</label></h1><br> 
-                    <input type="text" id="txtVoornaam" name="txtVoornaam" 
-                        placeholder="Voornaam" autofocus> 
+                <h1><label for="txtVoornaam">Voornaam</label><br> 
+                    <input type="text" id="txtVoornaam" 
+                        name="txtvoornaam" placeholder="Voornaam"> 
                 </ul> 
                 <ul> 
                      <h1><label 
@@ -54,7 +54,7 @@
                     <input type="text" id="txtHuisnummer" 
                          name="txtHuisnummer" placeholder="Huisnummer"> 
                 </ul> 
-            </ul> 
+            </ul>
             <ul> 
                 <ul> 
                      <h1><label for="txtPostcode">Postcode</label><br> 
