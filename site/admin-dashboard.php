@@ -8,7 +8,7 @@ if(!isset($_SESSION['isIngelogd'])){
 }
 
 if($_SESSION['role'] != "admin"){
-    header('location: store.php');
+    header('location: index.php');
     exit;
 }
 ?>

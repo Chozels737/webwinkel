@@ -38,6 +38,9 @@ header {
 
 .nav__links li a {
   transition: all 0.3s ease 0s;
+  font-size: xx-large;
+  margin-left: 10px;
+  margin-right: 100px;
 }
 
 .nav__links li a:hover {
