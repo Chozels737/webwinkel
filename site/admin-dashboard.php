@@ -8,10 +8,18 @@ if(!isset($_SESSION['isIngelogd'])){
 }
 
 if($_SESSION['role'] != "admin"){
-    header('location: index.php');
+    header('location: store.php');
     exit;
 }
+
+$timestamp = time();
+echo date('Y-d-m', $timestamp)
 ?>
+
+<div>
+    De Datum van volgende week is .. 
+</div>
+
 
 <!DOCTYPE html>
 <html lang="en">

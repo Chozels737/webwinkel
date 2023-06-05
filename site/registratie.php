@@ -24,7 +24,7 @@
       </header>
     <main> 
     <div class="container1"> 
-        <form action="verwerk.php" method="get"> 
+        <form action="verwerk.php" method="post"> 
             <ul> 
                 <ul> 
                 <h1><label for="txtVoornaam">Voornaam</label><br> 
